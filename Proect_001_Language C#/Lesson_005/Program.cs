@@ -1,9 +1,9 @@
 ﻿Console.Write("Введите имя: ");
 string UserName = Console.ReadLine();
 string ControlName = "Андрей";
-if (ControlName == UserName)
+if (ControlName.ToLower() == UserName.ToLower())
 {
-  Console.Write("Привет " + ControlName);  
+  Console.Write("Привет, " + ControlName + " ты тут главный!!!");  
 }
 else
 {
