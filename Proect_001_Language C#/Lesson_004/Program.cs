@@ -1,2 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿double numderA = 12;
+double numderB = 5;
+Console.WriteLine(numderA / numderB);
