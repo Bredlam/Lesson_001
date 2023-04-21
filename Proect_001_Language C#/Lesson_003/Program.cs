@@ -1,3 +1,5 @@
-﻿int numderA = 3;
-int numderB = 5;
-Console.WriteLine(numderA + numderB);
+﻿int numderA = new Random().Next(1,10);
+Console.Write("Рандомное число А = " + numderA);
+int numderB = new Random().Next(1,10);
+Console.WriteLine(" Рандомное число B = " + numderB);
+Console.WriteLine("Результат сложения = " + (numderA + numderB));
