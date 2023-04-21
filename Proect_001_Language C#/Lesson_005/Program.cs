@@ -3,5 +3,9 @@ string UserName = Console.ReadLine();
 string ControlName = "Андрей";
 if (ControlName == UserName)
 {
-  Console.Write("Поздравляю!");  
+  Console.Write("Привет " + ControlName);  
+}
+else
+{
+    Console.Write("Привет, незнакомец!");  
 }
