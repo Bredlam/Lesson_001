@@ -1,5 +1,5 @@
 ﻿Console.Clear();
-// Урок разбирал препод - я писал за ним
+/*// Урок разбирал препод - я писал за ним
 Console.WriteLine("Задача №1 ");
 Console.Write("Введите целое число (тип Строка): ");
 string UserInput = Console.ReadLine() ?? "";
@@ -10,8 +10,8 @@ Console.WriteLine("Вывод квадрат числа преобразован
 Console.WriteLine(UserInput + " -> " + Result);
 Console.WriteLine($"{UserInput} -> {Result}"); // метод интерполяции. Метод позволяющий использовать переменные внутри строки
 
-// Напишите программу, которая на вход принимает два числа 
-// и проверяет, является ли первое число квадратом второго.
+//Напишите программу, которая на вход принимает два числа 
+//и проверяет, является ли первое число квадратом второго.
 Console.WriteLine(" ");
 Console.WriteLine("Задача №2 ");
 Console.Write("Введите 1-е число - ");
@@ -29,9 +29,9 @@ else
     Console.WriteLine("Нет");
 }
 
-// Напишите программу, которая будет выдавать название
-// дня недели по заданному номеру за интервал номеров
-// дней недели заступать нельзя
+//Напишите программу, которая будет выдавать название
+//дня недели по заданному номеру за интервал номеров
+//дней недели заступать нельзя 
 Console.WriteLine(" ");
 Console.WriteLine("Задача №3 ");
 Console.Write("Введите день недели ");
@@ -50,3 +50,35 @@ else
 {
     Console.Write("Вы ввели неверные данные");
 }
+*/
+//Напишите программу, которая на вход принимает одно число (N), а на 
+//выходе показывает все целые числа в промежутке от -N до N 
+Console.WriteLine(" ");
+Console.WriteLine("Задача №4 ");
+Console.Write("Введите число ");
+string UserInput3 = Console.ReadLine() ?? "";
+int UserNumber4 = int.Parse(UserInput3);
+int UserNumber5 = 0;
+
+if (UserNumber4 < 0)
+{
+    UserNumber5 = UserNumber4 * -1;    
+    while (UserNumber4 < UserNumber5)
+    {
+        Console.WriteLine(UserNumber4);
+        UserNumber4 ++;
+    }
+}
+else
+{
+    UserNumber5 = - UserNumber4;
+    while (UserNumber5 < UserNumber4)
+    {
+        Console.WriteLine(UserNumber5);
+        UserNumber5 ++;
+    }    
+}
+Console.WriteLine(UserNumber5);
+
+
+
