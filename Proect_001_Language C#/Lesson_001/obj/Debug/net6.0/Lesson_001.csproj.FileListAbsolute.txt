@@ -1,0 +1,15 @@
+C:\Users\stbre\OneDrive\Документы\LocalRepositoryGIT\Proect_001_Language C#\Lesson_001\bin\Debug\net6.0\Lesson_001.exe
+C:\Users\stbre\OneDrive\Документы\LocalRepositoryGIT\Proect_001_Language C#\Lesson_001\bin\Debug\net6.0\Lesson_001.deps.json
+C:\Users\stbre\OneDrive\Документы\LocalRepositoryGIT\Proect_001_Language C#\Lesson_001\bin\Debug\net6.0\Lesson_001.runtimeconfig.json
+C:\Users\stbre\OneDrive\Документы\LocalRepositoryGIT\Proect_001_Language C#\Lesson_001\bin\Debug\net6.0\Lesson_001.dll
+C:\Users\stbre\OneDrive\Документы\LocalRepositoryGIT\Proect_001_Language C#\Lesson_001\bin\Debug\net6.0\Lesson_001.pdb
+C:\Users\stbre\OneDrive\Документы\LocalRepositoryGIT\Proect_001_Language C#\Lesson_001\obj\Debug\net6.0\Lesson_001.csproj.AssemblyReference.cache
+C:\Users\stbre\OneDrive\Документы\LocalRepositoryGIT\Proect_001_Language C#\Lesson_001\obj\Debug\net6.0\Lesson_001.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stbre\OneDrive\Документы\LocalRepositoryGIT\Proect_001_Language C#\Lesson_001\obj\Debug\net6.0\Lesson_001.AssemblyInfoInputs.cache
+C:\Users\stbre\OneDrive\Документы\LocalRepositoryGIT\Proect_001_Language C#\Lesson_001\obj\Debug\net6.0\Lesson_001.AssemblyInfo.cs
+C:\Users\stbre\OneDrive\Документы\LocalRepositoryGIT\Proect_001_Language C#\Lesson_001\obj\Debug\net6.0\Lesson_001.csproj.CoreCompileInputs.cache
+C:\Users\stbre\OneDrive\Документы\LocalRepositoryGIT\Proect_001_Language C#\Lesson_001\obj\Debug\net6.0\Lesson_001.dll
+C:\Users\stbre\OneDrive\Документы\LocalRepositoryGIT\Proect_001_Language C#\Lesson_001\obj\Debug\net6.0\refint\Lesson_001.dll
+C:\Users\stbre\OneDrive\Документы\LocalRepositoryGIT\Proect_001_Language C#\Lesson_001\obj\Debug\net6.0\Lesson_001.pdb
+C:\Users\stbre\OneDrive\Документы\LocalRepositoryGIT\Proect_001_Language C#\Lesson_001\obj\Debug\net6.0\Lesson_001.genruntimeconfig.cache
+C:\Users\stbre\OneDrive\Документы\LocalRepositoryGIT\Proect_001_Language C#\Lesson_001\obj\Debug\net6.0\ref\Lesson_001.dll
