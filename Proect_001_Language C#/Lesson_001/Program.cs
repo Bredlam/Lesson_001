@@ -22,11 +22,11 @@ int UserInputB = int.Parse(Console.ReadLine() ?? "");
 int Result1 = UserInputA / UserInputB;
 if (Result1 == UserInputB)
 {
-   Console.WriteLine("Да"); 
+    Console.WriteLine("Да");
 }
 else
 {
-    Console.WriteLine("Нет"); 
+    Console.WriteLine("Нет");
 }
 
 // Напишите программу, которая будет выдавать название
@@ -38,13 +38,13 @@ Console.Write("Введите день недели ");
 int UserInputС = int.Parse(Console.ReadLine() ?? "");
 if (UserInputС > 0 & UserInputС < 8)
 {
-   if (UserInputС == 1) Console.Write("Понедельник");
-   if (UserInputС == 2) Console.Write("Вторник");
-   if (UserInputС == 3) Console.Write("Среда");
-   if (UserInputС == 4) Console.Write("Четверг");
-   if (UserInputС == 5) Console.Write("Пятница");
-   if (UserInputС == 6) Console.Write("Суббота");
-   if (UserInputС == 7) Console.Write("Воскресенье");    
+    if (UserInputС == 1) Console.Write("Понедельник");
+    else if (UserInputС == 2) Console.Write("Вторник");
+    else if (UserInputС == 3) Console.Write("Среда");
+    else if (UserInputС == 4) Console.Write("Четверг");
+    else if (UserInputС == 5) Console.Write("Пятница");
+    else if (UserInputС == 6) Console.Write("Суббота");
+    else if (UserInputС == 7) Console.Write("Воскресенье");
 }
 else
 {
