@@ -1,6 +1,5 @@
-﻿Console.Clear();
-//Console.SetCursorPosition(10, 4);
-//Console.WriteLine("+");
+﻿// Рисуем фрактал в терминале указывая в каждой позиции символ +
+Console.Clear();
 
 int xa = 30, ya = 1,
     xb = 1, yb = 20,
