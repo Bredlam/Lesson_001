@@ -1,16 +1,15 @@
-﻿int a = 1;
-int b = 12;
-int c = 6;
-int d = 8;
-int e = 4;
+﻿// Напишите программу, которая на вход принимает число и выдает, 
+// является ли число четным т.е. делится ли оно на два без остатка
+Console.Clear();
 
-int max = a;
+Console.Write("Введите число: ");
+int FirstInt = int.Parse(Console.ReadLine() ?? "");
 
-if (max < a) max = a;
-if (max < b) max = b;
-if (max < c) max = c;
-if (max < d) max = d;
-if (max < e) max = e;
-
-Console.Write("Мах равен = ");
-Console.WriteLine(max);
+if (FirstInt % 2 == 0)
+{
+    Console.Write($"Число -> {FirstInt} является четным");
+}
+else
+{
+    Console.Write($"Число -> {FirstInt} НЕ является четным");
+}
