@@ -79,6 +79,3 @@ else
     }    
 }
 Console.WriteLine(UserNumber5);
-
-
-
