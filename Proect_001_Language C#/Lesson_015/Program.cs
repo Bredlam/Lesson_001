@@ -201,13 +201,12 @@ void FindQuarter(int NQ) // Определение метода
     {
         Console.WriteLine("Вы можете ввести цифру в диапазоне 1 ... 4");
     }
-}*/
+}
 
 // Задача. Напишите программу, которая принимает на вход координаты двух точек и находит
 // расстояние между ними в 2D пространстве.
 // А(3, 6); B (2, 1) -> 5,09
 // А(7,-5); B (1,-1) -> 7,21 
-
 double[] Coordinates = { 0, 0, 0, 0 };
 string XY = string.Empty;
 
@@ -239,12 +238,15 @@ void UserControlInput(ref double[] Coordinates, string XY) // Определен
         }
     }
 }
+
 double SecondPower = 2;
 double Result01 = Math.Pow(Coordinates[0] - Coordinates[2], SecondPower); 
 double Result02 = Math.Pow(Coordinates[1] - Coordinates[3], SecondPower);
 double Result03 = Math.Sqrt(Result01 + Result02);
 Console.Write($"Итог {Result03}");
 
+// Задача. Напишите программу, которая принимает на вход число (N) и выдает таблицу квадратов чисел от 1 до N
+// Например, 5 -> 1, 4, 9, 16, 25
 int UserNum = 0;
 ControlUserNum(ref UserNum);
 UserCalculations(UserNum);
