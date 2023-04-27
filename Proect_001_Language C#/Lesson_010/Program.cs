@@ -3,21 +3,21 @@
 Console.Clear();
 int UserInt;
 Console.Write("Введите целое трехзначное число: ");
-while (true)
-{
-    if ((int.TryParse(Console.ReadLine(), out UserInt)))
+    while (true)
     {
-        int ControlInt = 0;
-        int coint = UserInt;
-        while (coint > 0)
+        if ((int.TryParse(Console.ReadLine(), out UserInt)))
         {
-            ControlInt++;
-            coint/=10;
+            int ControlInt = 0;
+            int coint = UserInt;
+            while (coint > 0)
+            {
+                ControlInt++;
+                coint/=10;
+            }
+            if (ControlInt == 3) break;        
         }
-        if (ControlInt == 3) break;        
+        Console.WriteLine("Ошибка. Введите целое трехзначное число!");
     }
-    Console.WriteLine("Ошибка. Введите целое трехзначное число!");
-}
 
 int OstInt = UserInt % 100 / 10;
 
