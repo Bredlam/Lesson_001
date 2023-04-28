@@ -151,7 +151,9 @@ int ControlUserInput() // Определение метода - контроль
     while (true)
     {
         Console.Write("Введите целое число: ");
-        if(int.TryParse(Console.ReadLine(), out int userInt)) return userInt;
+        if(int.TryParse(Console.ReadLine(), out int userInt))   // параметр out в этой инструкции говорит о том, что переменная userInt
+        // будет определена и ей будет присвоено значение внутри метода .TryParse                                                             // причем обязательно.
+            return userInt;
         Console.WriteLine("Ошибка! Введите целое число: ");
     }
 }
