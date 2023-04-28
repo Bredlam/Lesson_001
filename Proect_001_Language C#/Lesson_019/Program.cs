@@ -11,11 +11,10 @@ class Program
 ;
         static int ControlUserInput() // Определение метода - контроль ввода пятизначного числа      
         {
-            int userInt;
             while (true)
             {
                 Console.Write("Введите целое пятизначное число: ");
-                if ((int.TryParse(Console.ReadLine(), out userInt)))
+                if ((int.TryParse(Console.ReadLine(), out int userInt)))
                 {
                     int controlInt = 0;
                     int coint = userInt;
