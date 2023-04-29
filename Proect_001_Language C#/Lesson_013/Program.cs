@@ -5,10 +5,8 @@ int UserInt;
 Console.Write("Введите целое число: ");
 while (true) // Проверка на ввод целого числа
 {
-    if ((int.TryParse(Console.ReadLine(), out UserInt)))
-    {
+    if ((int.TryParse(Console.ReadLine(), out UserInt))) 
         break;
-    }
     Console.Write("Ошибка. Введите целое число!:");
 }
 
