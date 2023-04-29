@@ -225,7 +225,7 @@ ResultOutput02(userResult02, userNum02);
 
 // Напишите программу, которая выводит массив из 8 элементов, заполненный нулями и единицами в случайном порядке
 // Например: [1,0,1,1,0,1,0,0]
-void FullArrayRandom(int[] array) // Определение метода - рандомное заполнение массива
+void FillArrayRandom(int[] array) // Определение метода - рандомное заполнение массива
 {
     for (int i = 0; i < array.Length; i++)
     {
@@ -242,7 +242,7 @@ void ResultOutput03(int[] array) // Определение метода - выв
 }
 
 int[] userArray01 = new int[8];
-FullArrayRandom(userArray01);
+FillArrayRandom(userArray01);
 ResultOutput03(userArray01);
 
 // ДОМАШНИЕ ЗАДАЧИ.
@@ -307,6 +307,5 @@ void ResultOutput05(int num, int result) // Определение метода 
 int userNum03 = ControlUserInput05();
 int userResult04 = SummNumOfTally(userNum03);
 ResultOutput05(userNum03, userResult04);
-
 
 // Задача. Напишите программу, которая задает массив из 8 элементов и выводит их на экран.
